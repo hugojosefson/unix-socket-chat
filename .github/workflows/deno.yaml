@@ -27,5 +27,5 @@ jobs:
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           brew install fd
 
-          deno task check
+          deno task check --unstable   # for now, check does not recognise unix sockets' stability
 
