@@ -1,10 +1,14 @@
 {
-  "version": "3",
+  "version": "4",
+  "specifiers": {
+    "jsr:@hugojosefson/run-simple@2.3.8": "2.3.8"
+  },
+  "jsr": {
+    "@hugojosefson/run-simple@2.3.8": {
+      "integrity": "8dc0318207bd0f4e9ed46e36fb179007169f7f25b14ae251f0880e10b347020f"
+    }
+  },
   "remote": {
-    "https://deno.land/x/run_simple@2.2.0/mod.ts": "3bd3206b7664491b73799856196a1081e8d4dbb4877de9d5883c149798906ae9",
-    "https://deno.land/x/run_simple@2.2.0/src/fn.ts": "1faf24c00a2676c717f99c5e2d2ff9ccee6191fb09b94496522f9700af7acd15",
-    "https://deno.land/x/run_simple@2.2.0/src/os.ts": "47820a9a43f99006ef8e6a0c4c353406cda1155e18b6ced50d0863c2a11863e9",
-    "https://deno.land/x/run_simple@2.2.0/src/run.ts": "dfcb9fb07a7884770f3277c8144cbc0c4202185607b37218207e884f13ff4159",
     "https://deno.land/x/semver@v1.4.1/mod.ts": "0b79c87562eb8a1f008ab0d98f8bb60076dd65bc06f1f8fdfac2d2dab162c27b"
   }
 }

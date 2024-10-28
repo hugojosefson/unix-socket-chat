@@ -28,4 +28,3 @@ jobs:
           brew install fd
 
           deno task check --unstable   # for now, check does not recognise unix sockets' stability
-

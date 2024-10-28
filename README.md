@@ -10,6 +10,12 @@ The server:
 ./src/cli.ts
 ```
 
+Alternatively:
+
+```sh
+deno run --allow-write=./sock --allow-read=./sock --allow-run=lsof https://raw.githubusercontent.com/hugojosefson/unix-socket-chat/refs/heads/main/src/cli.ts
+```
+
 The clients:
 
 ```sh
